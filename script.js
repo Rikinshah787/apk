@@ -6,11 +6,11 @@ const PERSONAL_DATA = {
     name: "Rikin Shah",
     email: "rshah@asu.edu",
     phone: "917-238-5682",
-    linkedin: "https://linkedin.com/in/yourprofile", // Update with your LinkedIn
-    github: "https://github.com/yourusername", // Update with your GitHub
-    resume: "", // Add your resume URL here
-    video: "", // Add your video URL here or leave empty
-    recruiterName: "Eric",
+    linkedin: "https://linkedin.com/in/rikinshah787",
+    github: "https://github.com/rikinshah787",
+    resume: "content/resume.pdf", // Resume from content folder
+    video: "content/video.mp4", // Video from content folder
+    recruiterName: "Erik",
     company: "CVS",
     position: "Data/Agentic Position",
     
@@ -79,8 +79,8 @@ function addPersonalizedGreeting() {
         greeting.style.animation = 'fadeInUp 0.8s ease-out';
     }
     
-    // Console message for Eric
-    console.log(`%c👋 Hi Eric!`, 'font-size: 24px; font-weight: bold; color: #667eea;');
+    // Console message for Erik
+    console.log(`%c👋 Hi Erik!`, 'font-size: 24px; font-weight: bold; color: #667eea;');
     console.log(`%cThanks for reviewing my application for the Data/Agentic position at CVS!`, 'font-size: 14px; color: #666;');
     console.log(`%cThis page was built specifically for you.`, 'font-size: 12px; color: #999;');
 }

@@ -165,6 +165,7 @@ body::before {
     align-items: center;
 }
 
+
 .step-indicator {
     display: flex;
     align-items: center;
@@ -265,7 +266,7 @@ body::before {
 
 /* Hero Section - Side by Side */
 .hero {
-    padding: 140px 20px 60px;
+    padding: 140px 20px 80px;
     position: relative;
     min-height: 70vh;
     display: flex;
@@ -516,7 +517,7 @@ body::before {
 
 /* Projects Section */
 .projects-section {
-    padding: 40px 0 80px;
+    padding: 40px 0 100px;
     position: relative;
 }
 
@@ -746,7 +747,7 @@ html {
 /* Scroll Down Button */
 .scroll-down-btn {
     position: absolute;
-    bottom: 20px;
+    bottom: -50px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -819,41 +820,34 @@ html {
     }
 
     .header-container {
-        padding: 0 15px;
+        padding: 0 10px;
     }
 
     .header-content {
-        padding: 12px 0;
-        flex-direction: column;
-        gap: 10px;
+        display: none; /* Hide header content on mobile, show only steps */
     }
 
     .header-logo {
-        font-size: 1.1rem;
+        display: none;
     }
 
     .header-nav {
-        gap: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .nav-item {
-        font-size: 0.8rem;
+        display: none;
     }
 
     .step-indicator {
-        padding: 8px 0;
+        padding: 6px 0;
+        gap: 5px;
     }
 
     .step {
-        width: 30px;
-        height: 30px;
-        font-size: 0.8rem;
+        width: 26px;
+        height: 26px;
+        font-size: 0.7rem;
     }
 
     .step-arrow {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .hero {
