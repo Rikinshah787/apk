@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rikin Shah - Application for Data/Agentic Position at CVS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+    <div class="comet"></div>
+    <div class="comet2"></div>
+
+    <!-- Header Bar -->
+    <header class="header-bar">
+        <div class="header-container">
+            <div class="header-content">
+                <div class="header-logo">Rikin Shah</div>
+                <nav class="header-nav">
+                    <a href="#hero" class="nav-item" data-step="1">1. Home</a>
+                    <a href="#projects" class="nav-item" data-step="2">2. Projects</a>
+                    <a href="#skills" class="nav-item" data-step="3">3. Skills</a>
+                </nav>
+            </div>
+            <div class="step-indicator">
+                <div class="step active" data-step="1">1</div>
+                <div class="step-arrow">→</div>
+                <div class="step" data-step="2">2</div>
+                <div class="step-arrow">→</div>
+                <div class="step" data-step="3">3</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section - Eric & Video Side by Side -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Eric Greeting -->
+                <div class="greeting-card glass-card">
+                    <h1 class="greeting-title">Hi Eric,</h1>
+                    <p class="greeting-subtitle">I'm Rikin Shah</p>
+                    <p class="greeting-text">
+                        Thank you for considering my application for the <strong>Data/Agentic position at CVS</strong>.
+                    </p>
+                    <div class="contact-info">
+                        <a href="mailto:rshah@asu.edu" class="contact-badge">📧 rshah@asu.edu</a>
+                        <a href="tel:9172385682" class="contact-badge">📱 917-238-5682</a>
+                    </div>
+                    <div class="greeting-links">
+                        <a href="#" id="linkedin-link" target="_blank" class="greeting-link">LinkedIn</a>
+                        <a href="#" id="github-link" target="_blank" class="greeting-link">GitHub</a>
+                        <a href="#" id="resume-link" target="_blank" class="greeting-link">📄 Resume</a>
+                    </div>
+                </div>
+                
+                <!-- Video -->
+                <div class="video-card glass-card">
+                    <h3 class="video-title">My 3-Minute Video</h3>
+                    <div class="video-container" id="video-container">
+                        <div class="video-placeholder" id="video-placeholder">
+                            <div class="video-icon">▶️</div>
+                            <p>Video Loading...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll Down Button -->
+        <div class="scroll-down-btn" data-target="#projects">
+            <div class="scroll-arrow">↓</div>
+            <span class="scroll-text">Scroll</span>
+        </div>
+    </section>
+
+    <!-- Projects Section - 3-4 Projects -->
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-heading">Relevant Projects</h2>
+            <div class="projects-grid" id="projects-grid"></div>
+        </div>
+        <!-- Scroll Down Button -->
+        <div class="scroll-down-btn" data-target="#skills">
+            <div class="scroll-arrow">↓</div>
+            <span class="scroll-text">Scroll</span>
+        </div>
+    </section>
+
+    <!-- Skills Section - One Line -->
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <h2 class="section-heading">Skills & Tools</h2>
+            <div class="skills-inline" id="skills-container"></div>
+        </div>
+    </section>
+
+    <!-- Links & Closing -->
+    <section class="section closing-section">
+        <div class="container">
+            <div class="closing-card glass-card">
+                <div class="links-inline">
+                    <a href="#" id="linkedin-link" target="_blank" class="link-button linkedin">💼 LinkedIn</a>
+                    <a href="#" id="github-link" target="_blank" class="link-button github">💻 GitHub</a>
+                </div>
+                <div class="signature">
+                    <p class="signature-text">Thank you, Eric!</p>
+                    <p class="signature-name">Best regards,<br><strong>Rikin Shah</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
