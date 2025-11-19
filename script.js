@@ -13,7 +13,7 @@ const PERSONAL_DATA = {
     video: "content/video1221648457.mp4", // Video from content folder
     recruiterName: "Erik",
     company: "CVS",
-    position: "Data/Agentic Position",
+    position: "Data Scientist",
     
     projects: [
         {
@@ -82,7 +82,7 @@ function addPersonalizedGreeting() {
     
     // Console message for Erik
     console.log(`%c👋 Hi Erik!`, 'font-size: 24px; font-weight: bold; color: #667eea;');
-    console.log(`%cThanks for reviewing my application for the Data/Agentic position at CVS!`, 'font-size: 14px; color: #666;');
+    console.log(`%cThanks for reviewing my application for the Data Scientist position at CVS!`, 'font-size: 14px; color: #666;');
     console.log(`%cThis page was built specifically for you.`, 'font-size: 12px; color: #999;');
 }
 
