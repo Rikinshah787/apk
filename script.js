@@ -8,8 +8,9 @@ const PERSONAL_DATA = {
     phone: "917-238-5682",
     linkedin: "https://linkedin.com/in/rikinshah787",
     github: "https://github.com/rikinshah787",
-    resume: "content/resume.pdf", // Resume from content folder
-    video: "content/video.mp4", // Video from content folder
+    portfolio: "https://www.rikin.tech",
+    resume: "content/resume_20251118_200520_493387_9942276d.pdf", // Resume from content folder
+    video: "content/video1221648457.mp4", // Video from content folder
     recruiterName: "Erik",
     company: "CVS",
     position: "Data/Agentic Position",

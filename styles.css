@@ -671,36 +671,26 @@ body::before {
     text-align: center;
 }
 
-.links-inline {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
+.portfolio-link {
+    margin-top: 30px;
 }
 
-.link-button {
-    padding: 12px 25px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: 600;
+.portfolio-button {
+    display: inline-block;
+    padding: 15px 35px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
     color: white;
-    font-size: 0.9rem;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1rem;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
 }
 
-.link-button.linkedin {
-    background: linear-gradient(135deg, #0077b5, #00a0dc);
-}
-
-.link-button.github {
-    background: linear-gradient(135deg, #24292e, #2f363d);
-}
-
-.link-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+.portfolio-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
 }
 
 .signature {
